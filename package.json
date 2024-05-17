@@ -1,7 +1,7 @@
 {
-  "name": "iyzipay",
+  "name": "iyzipay-axios",
   "version": "2.0.61",
-  "description": "iyzipay api node.js client",
+  "description": "iyzipay api node.js client axios",
   "main": "lib/Iyzipay.js",
   "scripts": {
     "test": "mocha $(find test -name '*Test.js')",
@@ -11,21 +11,24 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/iyzico/iyzipay-node.git"
+    "url": "git+https://github.com/fatihkonuk/iyzipay-node-axios.git"
   },
   "keywords": [
     "iyzico",
     "iyzipay",
     "iyzico.com",
     "iyzipay node.js",
+    "iyzipay node.js axios",
     "iyzipay api",
     "iyzipay api node.js client",
     "iyzipay api node.js",
+    "iyzipay api node.js axios",
     "payment processing"
   ],
   "author": "iyzico <entegrasyon@iyzico.com> (https://iyzico.com/)",
   "contributors": [
-    "Huseyin Babal <huseyinbabal88@gmail.com>"
+    "Huseyin Babal <huseyinbabal88@gmail.com>",
+    "Fatih Konuk <fatihkonuk000@gmail.com>"
   ],
   "license": "MIT",
   "bugs": {
@@ -33,7 +36,7 @@
   },
   "homepage": "https://github.com/iyzico/iyzipay-node",
   "dependencies": {
-    "request": "2.69.0"
+    "axios": "^1.6.8"
   },
   "devDependencies": {
     "async": "^1.5.2",
