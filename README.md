@@ -2,6 +2,8 @@
 
 [![NPM version](https://img.shields.io/npm/v/iyzipay.svg)](https://www.npmjs.com/package/iyzipay)
 
+The iyzipay-axios package is a modernized version of the original iyzipay npm package, which integrates the Iyzico payment gateway. This new package replaces the deprecated request library with the widely-used and actively maintained axios library for making HTTP requests.
+
 You can sign up for an iyzico account at [https://iyzico.com](https://iyzico.com)
 
 # Requirements
@@ -10,7 +12,7 @@ Node.js v0.10.0 or later
 
 # Installation
 
-`npm install iyzipay`
+`npm install iyzipay-axios`
 
 # Usage
 
