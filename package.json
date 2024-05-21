@@ -1,8 +1,9 @@
 {
   "name": "iyzipay-axios",
-  "version": "2.0.61",
+  "version": "2.0.63",
   "description": "iyzipay api node.js client axios",
   "main": "lib/Iyzipay.js",
+  "types": "index.d.ts",
   "scripts": {
     "test": "mocha $(find test -name '*Test.js')",
     "samples": "mocha $(find samples -name '*Samples.js')",
